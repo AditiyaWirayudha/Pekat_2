@@ -1,0 +1,7 @@
+petugas
+pass:password
+
+yudha
+pass:12345678
+
+{{ Auth::guard('admin')->user()->nama_petugas }}
